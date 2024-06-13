@@ -34,7 +34,7 @@ def identify_operation(json_file):
             if re.search(config["read_operation_pattern"], event_name):
                 return "True" #Read Operation
             elif user_agent in config["clickops_user_agents"] or any (user_agent.startswith(prefix) for prefix in (tuple(config["clickops_prefixes"]))):
-                return "False"
+                return "False" #clickops 
             else:
                 return "True" #Write Operation
                
