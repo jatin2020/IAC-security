@@ -2,7 +2,7 @@
     "eventVersion": "1.08",
     "userIdentity": {
         "type": "AssumedRole",
-        "principalId": "AROALTNU5UZAZ7WUJXJ:lakshmi.jjena@gmail.com",
+        "principalId": "AROALTNU5UZAZ7WUJXJ:jjena@gmail.com",
         "arn": "arn:aws:sts::823265175401:assumed-role/tlz_developer/jjena@gmail.com",
         "accountId": "99965175401",
         "accessKeyId": "ASIA37LTNYNA54KVE",
