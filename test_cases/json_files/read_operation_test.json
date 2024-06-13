@@ -1,0 +1,42 @@
+{
+    "eventVersion": "1.09",
+    "userIdentity": {
+        "type": "AWSService",
+        "invokedBy": "cloudtrail.amazonaws.com"
+    },
+    "eventTime": "2024-03-06T18:36:15Z",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketAcl",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "cloudtrail.amazonaws.com",
+    "userAgent": "cloudtrail.amazonaws.com",
+    "requestParameters": {
+        "bucketName": "tlz-cloudtrail-central-903958141776",
+        "Host": "tlz-cloudtrail-central-903958141776.s3.us-east-1.amazonaws.com",
+        "acl": ""
+    },
+    "responseElements": null,
+    "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "TLS_AES_128_GCM_SHA256",
+        "bytesTransferredIn": 0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "a3JuHor95/oyKf3hG8J8DnTqs6dZ6qeY9faaXurEqirwRoF6DaRIQ0V6mO9e8p5ouDMXyFMuw70=",
+        "bytesTransferredOut": 566
+    },
+    "requestID": "MNFNAVEPWT6N4Y3X",
+    "eventID": "330bed4f-c3e9-4a26-b8f5-87fd1a047970",
+    "readOnly": true,
+    "resources": [
+        {
+            "accountId": "903958141776",
+            "type": "AWS::S3::Bucket",
+            "ARN": "arn:aws:s3:::tlz-cloudtrail-central-903958141776"
+        }
+    ],
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "903958141776",
+    "sharedEventID": "37889238-1b48-45a3-8c88-9d9be9037901",
+    "eventCategory": "Management"
+}

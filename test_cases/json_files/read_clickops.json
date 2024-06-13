@@ -1,0 +1,53 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AROA37LTNU5UZAZ7WUJXJ:lakshmi.sowndarya@eventbrite.com",
+        "arn": "arn:aws:sts::823265175401:assumed-role/tlz_developer/lakshmi.sowndarya@eventbrite.com",
+        "accountId": "823265175401",
+        "accessKeyId": "ASIA37LTNU5USGF6TO74",
+        "sessionContext": {
+            "sessionIssuer": {
+                "type": "Role",
+                "principalId": "AROA37LTNU5UZAZ7WUJXJ",
+                "arn": "arn:aws:iam::823265175401:role/tlz_developer",
+                "accountId": "823265175401",
+                "userName": "tlz_developer"
+            },
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2024-02-28T05:07:28Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2024-02-28T07:04:19Z",
+    "eventSource": "lambda.amazonaws.com",
+    "eventName": "GetBucketAcl",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "122.15.254.57",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+    "requestParameters": {
+        "functionName": "arn:aws:lambda:us-east-1:823265175401:function:AdminToolingApi-prod-getauditdata108EF429-fTTDjO2hheVo",
+        "statementId": "7b956c87-61d3-5b81-8b23-a4013a2b9562",
+        "action": "lambda:InvokeFunction",
+        "principal": "apigateway.amazonaws.com",
+        "sourceArn": "arn:aws:execute-api:us-east-1:823265175401:d9lbi562hk/*/GET/audit_logging/get-audit-data"
+    },
+    "responseElements": {
+        "statement": "{\"Sid\":\"7b956c87-61d3-5b81-8b23-a4013a2b9562\",\"Effect\":\"Allow\",\"Principal\":{\"Service\":\"apigateway.amazonaws.com\"},\"Action\":\"lambda:InvokeFunction\",\"Resource\":\"arn:aws:lambda:us-east-1:823265175401:function:AdminToolingApi-prod-getauditdata108EF429-fTTDjO2hheVo\",\"Condition\":{\"ArnLike\":{\"AWS:SourceArn\":\"arn:aws:execute-api:us-east-1:823265175401:d9lbi562hk/*/GET/audit_logging/get-audit-data\"}}}"
+    },
+    "requestID": "c0b867d1-2bd4-47fc-a0d1-eb2139352ca6",
+    "eventID": "67906ab9-0d31-4e38-886e-d36eff5cc3a1",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "823265175401",
+    "eventCategory": "Management",
+    "tlsDetails": {
+        "tlsVersion": "TLSv1.3",
+        "cipherSuite": "TLS_AES_128_GCM_SHA256",
+        "clientProvidedHostHeader": "lambda.us-east-1.amazonaws.com"
+    },
+    "sessionCredentialFromConsole": "true"
+}

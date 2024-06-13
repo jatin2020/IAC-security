@@ -1,0 +1,112 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AROA37LTNU5UZAZ7WUJXJ:lakshmi.sowndarya@eventbrite.com",
+        "arn": "arn:aws:sts::823265175401:assumed-role/tlz_developer/lakshmi.sowndarya@eventbrite.com",
+        "accountId": "823265175401",
+        "accessKeyId": "ASIA37LTNU5URR5UJRPY",
+        "sessionContext": {
+            "sessionIssuer": {
+                "type": "Role",
+                "principalId": "AROA37LTNU5UZAZ7WUJXJ",
+                "arn": "arn:aws:iam::823265175401:role/tlz_developer",
+                "accountId": "823265175401",
+                "userName": "tlz_developer"
+            },
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2024-02-28T05:07:28Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2024-02-28T07:12:03Z",
+    "eventSource": "lambda.amazonaws.com",
+    "eventName": "UpdateFunctionConfiguration20150331v2",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "122.15.254.57",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+    "requestParameters": {
+        "functionName": "AdminToolingApi-prod-getauditdata108EF429-fTTDjO2hheVo",
+        "description": "",
+        "timeout": 900,
+        "memorySize": 10240,
+        "environment": {},
+        "ephemeralStorage": {
+            "size": 512
+        },
+        "snapStart": {
+            "applyOn": "None"
+        }
+    },
+    "responseElements": {
+        "functionName": "AdminToolingApi-prod-getauditdata108EF429-fTTDjO2hheVo",
+        "functionArn": "arn:aws:lambda:us-east-1:823265175401:function:AdminToolingApi-prod-getauditdata108EF429-fTTDjO2hheVo",
+        "role": "arn:aws:iam::823265175401:role/AdminToolingApi-prod-AdminToolRoleF2F16284-1BNIESH2YYOOT",
+        "codeSize": 0,
+        "description": "",
+        "timeout": 900,
+        "memorySize": 10240,
+        "lastModified": "2024-02-28T07:12:03.000+0000",
+        "codeSha256": "774ce5af8716b0a6677fba9e967fc25ab3f1f01537d338c38d7dd1b5203c191f",
+        "version": "$LATEST",
+        "vpcConfig": {
+            "subnetIds": [
+                "subnet-07b2079d0e271f750",
+                "subnet-0b6088c2881d87425",
+                "subnet-02862829b187c870e",
+                "subnet-071866f3a8391e3ed"
+            ],
+            "securityGroupIds": [
+                "sg-02eec9031217cd730"
+            ],
+            "vpcId": "vpc-05d1e52a09f961fe7",
+            "ipv6AllowedForDualStack": false
+        },
+        "environment": {},
+        "tracingConfig": {
+            "mode": "PassThrough"
+        },
+        "revisionId": "defc80cb-07f3-492c-bc0d-6f7b7d8fad02",
+        "state": "Active",
+        "lastUpdateStatus": "InProgress",
+        "lastUpdateStatusReason": "The function is being created.",
+        "lastUpdateStatusReasonCode": "Creating",
+        "packageType": "Image",
+        "imageConfigResponse": {
+            "imageConfig": {
+                "command": [
+                    "audit_logging.index.get_all_audit_data"
+                ]
+            }
+        },
+        "architectures": [
+            "x86_64"
+        ],
+        "ephemeralStorage": {
+            "size": 512
+        },
+        "snapStart": {
+            "applyOn": "None",
+            "optimizationStatus": "Off"
+        },
+        "loggingConfig": {
+            "logFormat": "Text",
+            "logGroup": "/aws/lambda/AdminToolingApi-prod-getauditdata108EF429-fTTDjO2hheVo"
+        }
+    },
+    "requestID": "f869f58c-18cb-44b0-8888-f632b7396a55",
+    "eventID": "5fd49cc3-d77a-4e6f-84b4-55a2bc3968ff",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "823265175401",
+    "eventCategory": "Management",
+    "tlsDetails": {
+        "tlsVersion": "TLSv1.3",
+        "cipherSuite": "TLS_AES_128_GCM_SHA256",
+        "clientProvidedHostHeader": "lambda.us-east-1.amazonaws.com"
+    },
+    "sessionCredentialFromConsole": "true"
+}

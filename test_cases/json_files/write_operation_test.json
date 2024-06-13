@@ -1,0 +1,45 @@
+{
+    "eventVersion": "1.09",
+    "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AROA5E6A2TNIDOVBQXTTM:DatadogAWSIntegration",
+        "arn": "arn:aws:sts::903958141776:assumed-role/DatadogAWSIntegrationRole/DatadogAWSIntegration",
+        "accountId": "903958141776",
+        "accessKeyId": "ASIA5E6A2TNIDSUDH5OU",
+        "sessionContext": {
+            "sessionIssuer": {
+                "type": "Role",
+                "principalId": "AROA5E6A2TNIDOVBQXTTM",
+                "arn": "arn:aws:iam::903958141776:role/DatadogAWSIntegrationRole",
+                "accountId": "903958141776",
+                "userName": "DatadogAWSIntegrationRole"
+            },
+            "attributes": {
+                "creationDate": "2024-03-12T09:09:00Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2024-03-12T09:30:19Z",
+    "eventSource": "support.amazonaws.com",
+    "eventName": "RefreshTrustedAdvisorCheck",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "44.192.28.62",
+    "userAgent": "Datadog",
+    "errorCode": "AccessDenied",
+    "errorMessage": "User: arn:aws:sts::903958141776:assumed-role/DatadogAWSIntegrationRole/DatadogAWSIntegration is not authorized to perform: support:RefreshTrustedAdvisorCheck because no identity-based policy allows the support:RefreshTrustedAdvisorCheck action",
+    "requestParameters": null,
+    "responseElements": null,
+    "requestID": "131743b4-c7ea-4fac-92b0-6fb01b1cafb6",
+    "eventID": "c9d95bb9-587c-4bcd-a6cf-2195b39f96ba",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "903958141776",
+    "eventCategory": "Management",
+    "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "support.us-east-1.amazonaws.com"
+    }
+}
